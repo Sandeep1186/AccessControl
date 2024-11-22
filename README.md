@@ -33,6 +33,37 @@ A modern admin dashboard to manage user roles, permissions, and analytics. Built
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/access-control-dashboard.git
-   cd access-control-dashboard
+   
+   git clone https://github.com/Sandeep1186/AccessControl.git
+   cd AccessControl
+2. Install dependencies:
+   
+   npm install
+3. Start the development server:
+    
+   npm run dev
+
+Open your browser and navigate to http://localhost:5173.
+Project Structure--->
+
+src/
+├── components/        # Reusable UI components
+├── pages/             # Dashboard pages (Users, Roles, Permissions)
+├── context/           # Global state management
+├── styles/            # Tailwind CSS configurations
+├── App.jsx            # Main App component
+└── main.jsx           # Entry point
+
+Scripts
+---npm run dev: Start the development server.
+---npm run build: Build the application for production.
+---npm run preview: Preview the production build.
+
+Contribution--->
+Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
+
+Fork the repository.
+Create a new branch (feature/your-feature-name).
+Commit changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/your-feature-name).
+Open a pull request.
