@@ -44,15 +44,7 @@ A modern admin dashboard to manage user roles, permissions, and analytics. Built
    npm run dev
 
 Open your browser and navigate to http://localhost:5173.
-Project Structure--->
 
-src/
-├── components/        # Reusable UI components
-├── pages/             # Dashboard pages (Users, Roles, Permissions)
-├── context/           # Global state management
-├── styles/            # Tailwind CSS configurations
-├── App.jsx            # Main App component
-└── main.jsx           # Entry point
 
 Scripts
 ---npm run dev: Start the development server.
